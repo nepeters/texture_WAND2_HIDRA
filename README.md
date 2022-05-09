@@ -1,6 +1,10 @@
 # texture_WAND2_HIDRA
 WAND2 and HIDRA texture analysis codes <br />
 
+This is supplementary to a forthcoming journal publication
+
+[![DOI](https://zenodo.org/badge/490429486.svg)](https://zenodo.org/badge/latestdoi/490429486)
+
 ### Required python libraries
 
 matplotlib <br />
