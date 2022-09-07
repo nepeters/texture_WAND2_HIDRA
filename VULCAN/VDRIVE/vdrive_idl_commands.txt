@@ -1,0 +1,11 @@
+on analysis.sns.gov
+
+idl
+@VDRIVEbeta
+## must copy correct binned data to "binned_data"
+## must also copy correct .prm and '-s.gda' files for V correction
+VDRIVESPF,IPTS=22334,RUNS=172644,RUNE=172763,RUNV=174351,peakFile='peak_bcc.txt'
+## for 7 banks;
+VDRIVEPOLE,IPTS=22334,RUNS=172644,RUNE=172763,RUNV=174351,focus_ew=0
+## for 3 banks
+VDRIVEPOLE,IPTS=22334,RUNS=172644,RUNE=172763,RUNV=174351,focus_ew=1
